@@ -8,7 +8,7 @@ Chrome extension and a backend service that allows a user to type a natural lang
 
 2. navigate to the server folder
 
-3. replace the origins from the allow_origins=origins part  from app.py in server i.e. the following:
+3. replace the origins to repective domain  from the allow_origins=origins part  from app.py in server i.e. the following:
         app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,   
@@ -17,7 +17,7 @@ Chrome extension and a backend service that allows a user to type a natural lang
     allow_headers=["*"],
 )
 
-4. start the backend typing: uvicorn app:app --reload
+4. start the backend typing in terminal: uvicorn app:app --reload 
 
 5. load 'extension' chrome and go to developer mode and load unpacked extension
 
