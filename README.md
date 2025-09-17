@@ -8,7 +8,7 @@ Chrome extension and a backend service that allows a user to type a natural lang
 
 2. navigate to the server folder
 
-3. replace the origins to repective domain  from the allow_origins=origins part  from app.py in server i.e. the following:
+3. replace the origins to respective domain  from the allow_origins=origins part  from app.py in server i.e. the following:
         app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,   
